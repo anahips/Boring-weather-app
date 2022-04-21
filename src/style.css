@@ -1,18 +1,37 @@
+h1 {
+  margin-bottom: -8px;
+  display: inline-block;
+  font-family: arial, sans-serif;
+  font-weight: 400;
+  color: #70757a;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  color: #70757a;
+  margin: 0;
+  padding: 0;
+  line-height: 19px;
+}
+
 .weather-app {
   max-width: 600px;
-  border: 1px solid;
+  border: 1px solid #70757a;
   margin: 40px 0 0 0;
-  padding: 20px 30px;
+  padding: 20px;
+  border-radius: 5px;
 }
 
 .container {
   margin: 0 auto;
 }
 
-li {
-  list-style-type: none;
-}
-
 #date {
-  padding: 0px;
+  padding: 2px;
+  line-height: -0.5;
 }
