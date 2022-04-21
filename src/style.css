@@ -1,0 +1,18 @@
+.weather-app {
+  max-width: 600px;
+  border: 1px solid;
+  margin: 40px 0 0 0;
+  padding: 20px 30px;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+li {
+  list-style-type: none;
+}
+
+#date {
+  padding: 0px;
+}
