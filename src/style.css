@@ -31,6 +31,28 @@ li {
   margin: 0 auto;
 }
 
+.overview {
+  margin-bottom: 18px;
+}
+
+.weather-temperature img {
+  margin-right: 10px;
+  height: 64px;
+  width: 64px;
+}
+
+.weather-temperature strong {
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 64px;
+}
+
+.weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
+}
+
 #date {
   padding: 2px;
   line-height: -0.5;
