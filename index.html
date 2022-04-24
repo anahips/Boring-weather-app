@@ -10,6 +10,7 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>Simple Weather App</title>
   </head>
@@ -17,10 +18,10 @@
     <div class="container">
       <div class="weather-app">
         <div class="overview">
-          <h1>London</h1>
+          <h1 id="city">London</h1>
           <ul id="date">
             <li>Friday 09:00</li>
-            <li>Clear</li>
+            <li id="weather-description">Clear</li>
           </ul>
         </div>
         <div class="row">
@@ -32,7 +33,7 @@
                 class="float-left"
               />
               <div class="float-left">
-                <strong>17</strong>
+                <strong id="temperature">8</strong>
                 <span class="units">°C |<a href="#"> °F</a></span>
               </div>
             </div>
