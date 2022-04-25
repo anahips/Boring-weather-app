@@ -14,7 +14,6 @@ ul {
 li {
   list-style-type: none;
   color: #70757a;
-  text-transform: capitalize;
   margin: 0;
   padding: 0;
   line-height: 19px;
@@ -57,4 +56,13 @@ li {
 #date {
   padding: 2px;
   line-height: -0.5;
+  color: #70757a;
+}
+
+#description {
+  margin-left: 2px;
+}
+
+#description:first-letter {
+  text-transform: capitalize;
 }
