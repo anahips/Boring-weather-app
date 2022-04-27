@@ -53,6 +53,15 @@ li {
   top: -34px;
 }
 
+.forecast-minimum {
+  font-size: 13px;
+  color: #70757a;
+}
+
+.forecast-maximum {
+  font-size: 13px;
+}
+
 #date {
   padding: 2px;
   line-height: -0.5;
@@ -69,4 +78,10 @@ li {
 
 #description:first-letter {
   text-transform: capitalize;
+}
+
+#weather-forecast-date {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 16px;
 }
