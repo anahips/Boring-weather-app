@@ -56,6 +56,7 @@ li {
 .forecast-minimum {
   font-size: 13px;
   color: #70757a;
+  position: relative;
 }
 
 .forecast-maximum {
