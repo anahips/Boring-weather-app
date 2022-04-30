@@ -1,9 +1,9 @@
 h1 {
   margin-bottom: -8px;
   display: inline-block;
-  font-family: arial, sans-serif;
+  font-family: "Sacramento", cursive;
   font-weight: 400;
-  color: #70757a;
+  color: #4a4e52;
 }
 
 ul {
@@ -13,22 +13,26 @@ ul {
 
 li {
   list-style-type: none;
-  color: #70757a;
+  color: #4a4e52;
   margin: 0;
   padding: 0;
   line-height: 19px;
+  font-family: "Handlee", cursive;
 }
 
 .weather-app {
   max-width: 550px;
-  border: 1px solid #70757a;
+  border: 1px solid #6b6f73;
   margin: 40px 0 0 0;
   padding: 20px;
   border-radius: 5px;
+  background: linear-gradient(#eec0c8, #ffc0cb, #f9629f);
 }
 
 .container {
   margin: 0 auto;
+  max-width: 550px;
+  color: #53585d;
 }
 
 .overview {
@@ -45,6 +49,8 @@ li {
   font-size: 64px;
   font-weight: 400;
   line-height: 64px;
+  margin-left: 5px;
+  font-family: "Handlee", cursive;
 }
 
 .weather-temperature .units {
@@ -55,17 +61,38 @@ li {
 
 .forecast-minimum {
   font-size: 13px;
-  color: #70757a;
+  color: #4a4e52;
+  font-family: "Handlee", cursive;
 }
 
 .forecast-maximum {
   font-size: 13px;
+  font-family: "Handlee", cursive;
+}
+
+.button {
+  color: #4a4e52;
+  background: none;
+  width: 80px;
+  line-height: 32px;
+  border-radius: 5px;
+  border-color: #efb1bb;
+  border-style: solid;
+}
+
+.button:hover {
+  background: #f9629f;
+  border-color: #f9629f;
+  color: white;
+  transition: 3ms ease-in-out;
+  opacity: 0.4;
 }
 
 #date {
   padding: 2px;
   line-height: -0.5;
-  color: #70757a;
+  color: #4a4e52;
+  font-family: "Handlee", cursive;
 }
 
 #update {
@@ -84,5 +111,21 @@ li {
   margin-top: 20px;
   text-align: center;
   font-size: 16px;
-  color: #70757a;
+  color: #4a4e52;
+  font-family: "Handlee", cursive;
+}
+
+#city-input {
+  border-color: #efb1bb;
+  background: none;
+  color: #4a4e52;
+}
+
+#search-form {
+  font-family: "Handlee", cursive;
+}
+
+#footer {
+  font-family: "Handlee", cursive;
+  color: #4a4e52;
 }

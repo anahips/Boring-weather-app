@@ -11,6 +11,15 @@
       crossorigin="anonymous"
     />
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Handlee&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="src/style.css" />
     <title>Simple Weather App</title>
   </head>
@@ -30,11 +39,7 @@
                 />
               </div>
               <div class="col-3">
-                <input
-                  type="submit"
-                  placeholder="Submit"
-                  class="btn btn-primary w-100"
-                />
+                <input type="submit" placeholder="Submit" class="button" />
               </div>
             </div>
           </form>
@@ -58,16 +63,17 @@
             <ul>
               <li>Humidity: <span id="humidity"></span>%</li>
               <li>Wind: <span id="wind"></span> mph</li>
+              <li>Feels like: <span id="feelsLike"></span></li>
             </ul>
           </div>
         </div>
         <div class="weather-forecast" id="forecast"></div>
       </div>
-      <small>
+      <small id="footer">
         <a href="https://github.com/anahips/Boring-weather-app" target="_blank"
           >Open source code</a
         >
-        by Ana Hip
+        by Ana Hipolito
       </small>
       <script src="src/index.js"></script>
     </div>
